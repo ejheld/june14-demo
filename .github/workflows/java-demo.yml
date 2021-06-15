@@ -40,5 +40,5 @@ jobs:
           name: 'EricJavaExample.war'
           path: staging
       - name: Tomcat deploy
-          run curl -T staging/EricJavaExample.war "http://tomcat:s3cret@18.214.39.227:9090/manager/text/deploy?path=/eric&update=true"
+run: curl -T staging/EricJavaExample.war "http://tomcat:s3cret@18.214.39.227:9090/manager/text/deploy?path=/eric&update=true"
 
