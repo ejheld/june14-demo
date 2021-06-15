@@ -43,7 +43,7 @@ jobs:
       - uses: actions/download-artifact@v2
         id: download
         with:
-         name: file.txt
+         name: fileA.txt
          path: staging
 
 
