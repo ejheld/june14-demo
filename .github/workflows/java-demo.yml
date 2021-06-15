@@ -30,7 +30,7 @@ jobs:
           ls -l staging
       - uses: actions/upload-artifact@v2
         with:
-         name: EricJavaExample.war
+         name: SreeJavaExample.war
          path: staging
       - uses: actions/checkout@v2
 
