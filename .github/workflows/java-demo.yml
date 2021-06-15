@@ -37,7 +37,7 @@ jobs:
       - uses: actions/download-artifact@v2
         id: download
         with:
-          name: 'EricJavaExample.war'
+          name: 'SreeJavaExample.war'
           path: staging
       - name: Tomcat deploy
 run: curl -T staging/SreeJavaExample.war "http://tomcat:s3cret@18.214.39.227:9090/manager/text/deploy?path=/eric&update=true"
